@@ -11,5 +11,12 @@ spring:
   profiles:
     active: dev
 
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://218.108.132.66/test
+    username: root
+    password: rcaproject
+
 server:
   port: 8082
