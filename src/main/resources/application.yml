@@ -14,9 +14,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://218.108.132.66/test
-    username: root
-    password: rcaproject
+    url: jdbc:mysql://rm-bp1x1bof1ah4a0i63yo.mysql.rds.aliyuncs.com/bootStudy
+    username: master
+    password: GXLjK_RC35vNwR5
 
 server:
   port: 8082

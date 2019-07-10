@@ -21,7 +21,7 @@ public class AccountController {
 
     @RequestMapping(value = "/list",method = RequestMethod.GET)
     public List<Account> getAccounts(){
-        return accountService.findAccountList();
+        return accountService.findAccountList();//aa
     }
 
     @RequestMapping(value = "/{id}",method = RequestMethod.GET)
